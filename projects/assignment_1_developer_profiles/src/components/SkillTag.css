@@ -1,0 +1,9 @@
+.skilltag {
+    border: 2px solid rgb(0, 0, 2555);
+    background-color: rgb(226, 151, 151);
+    border-radius: 2em;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    /*min-width: auto;*/
+}

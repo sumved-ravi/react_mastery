@@ -1,0 +1,51 @@
+.card {
+    border: 5px solid gray;
+    border-radius: 12px;
+    width: 400px;
+
+    padding: 10px;
+
+    gap: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    height: auto;
+    min-height: 400px;
+
+}
+
+.card h1,
+.card h2,
+.card, h3 {
+    margin: 4px;
+}
+
+/*
+.skill-container {
+    display: flex;
+    flex-directon: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-self: start;
+    gap: 8px;
+}
+
+*/
+
+.skill-container {
+    align-self: left;
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, max-content);
+    gap: 10px;
+    grid-auto-flow: row;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 0;
+    align-: space-evenly;
+    width: auto;
+}

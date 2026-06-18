@@ -1,0 +1,24 @@
+.inputButton {
+    width: auto;
+    height: 32px;
+
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 16px 4px rgba(0,0,0,0.5);
+}
+
+
+.customTipInput {
+    width: 80px;
+    height: 32px;
+
+    padding: 4px 12px;
+
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
